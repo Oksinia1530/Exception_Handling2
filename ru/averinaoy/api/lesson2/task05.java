@@ -37,7 +37,7 @@ public class task05 {
 
             String fileName = surname + ".txt";
             BufferedWriter writer = new BufferedWriter(new FileWriter(fileName, true));
-            writer.write(surname + name + patronymic + birthDate + " " + phoneNumber + gender);
+            writer.write(surname + " " + name + " " + patronymic + " " + birthDate + " " + phoneNumber + " " + gender);
             writer.newLine();
             writer.close();
 
