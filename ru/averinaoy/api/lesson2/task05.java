@@ -11,7 +11,7 @@ public class task05 {
         Scanner scanner = new Scanner(System.in);
 
         try {
-            System.out.print("Enter data: ");
+            System.out.print("Enter the data in the format \"Lastname Firstname Middlename date_of birth phone number gender (m or f)\": ");
             String input = scanner.nextLine();
 
             String[] data = input.split(" ");
